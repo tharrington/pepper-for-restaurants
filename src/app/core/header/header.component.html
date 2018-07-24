@@ -3,9 +3,9 @@
     <mat-icon>menu</mat-icon>
   </button>
   <div class="branding">
-    <div class="logo"></div>
+    Pepper
   </div>
-  <div class="search-bar" fxFlex>
+  <!-- <div class="search-bar" fxFlex>
     <form class="search-form" [ngStyle.xs]="{display: 'none'}">
       <mat-icon>search</mat-icon>
       <input type="text" placeholder="Search" autofocus="true" />
@@ -17,7 +17,11 @@
   <button (click)="toggleNotificationSidenav.emit()" mat-icon-button class="ml-xs overflow-visible">
     <mat-icon>notifications</mat-icon>
     <span class="notification-label">5</span>
-  </button>
+  </button> -->
+
+  <div class="search-bar" fxFlex>
+  </div>
+
   <button [matMenuTriggerFor]="user" mat-icon-button class="ml-xs">
     <mat-icon>person</mat-icon>
   </button>
@@ -30,10 +34,7 @@
       <mat-icon>account_box</mat-icon>
       Profile
     </button>
-    <button mat-menu-item>
-      <mat-icon>notifications_off</mat-icon>
-      Disable notifications
-    </button>
+    
     <button mat-menu-item>
       <mat-icon>exit_to_app</mat-icon>
       Sign Out
