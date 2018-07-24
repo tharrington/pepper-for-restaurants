@@ -1,20 +1,6 @@
-# Primer
+# Pepper For Restaurants
 
-Primer is a creative material design admin template built with Angular 2. It comes out of the box with AoT and lazy loading support, Language translation , RTL support and light and dark colour schemes. With this, you get all you need to start working on your SAAS, CRM, CMS or dashboard based project.
-
-Once you've purchased Primer please consider giving a `5 star rating`, it helps in pushing out more updates and adding a lot more features.
-
-####Key Features Include:
-* LTR/RTL Support
-* Angular 2
-* Material design
-* AoT compilation
-* Fully responsive (Mobile, Tablet, Desktop)
-* Well documented (Both online and offline)
-* Easy to customise
-* Language translation
-
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.32.3.
+Pepper for restaurants is built to allow restaurants to edit their information.
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
